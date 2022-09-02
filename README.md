@@ -1,8 +1,8 @@
 # Engineering_4_Notebook
 Jason Marshman Engineering_4_Notebook
-https://github.com/millerm22/Engineering_4_Notebook/tree/main/raspberry-pi
-ithub.com/Jason9398/Engineering_4_Notebook/blob/main/Images/Dracule_Mihawk_Anime_Infobox.png
 
+ithub.com/Jason9398/Engineering_4_Notebook/blob/main/Images/Dracule_Mihawk_Anime_Infobox.png
+https://github.com/Jason9398/Engineering_4_Notebook/tree/main/raspberry-pi
 * [Table of Contents](#table-of-contents)
 * [Headers](#Headers)
 * [Formatting](#Formatting)
