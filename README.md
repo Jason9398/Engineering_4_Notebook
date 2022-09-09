@@ -12,20 +12,21 @@
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description
-
-Write your assignment description here. What is the purpose of this assignment? It should be at least a few sentences.
+This is the first assignment in a series where I build a simulated launch pad. In this section, I wrote a script to count down from 10 second to liftoff. 
 
 ### Evidence 
 
-Pictures / Gifs of your work should go here. You need to communicate what your thing does. 
+![Countdown](images/launch%20pad%20count%20down.gif)
+Wiring was not necessary for this assignment.
 
-### Wiring
+### Code.
+[Link to code](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). 
 
-This may not be applicable to all assignments. Anything where you wire something up, include the wiring diagram here. The diagram should be clear enough that I can recreate the wiring from scratch. 
+### Reflection
 
-### Code
-Give me a link to your code. [Something like this](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). Don't make me hunt through your folders, give me a nice link to click to take me there! Remember to **COMMENT YOUR CODE** if you want full credit. 
+At first I had a hard time remembering the differences between the types of loops. A while loop runs until the condition is not longer satisfied, while a for loop runs for loop runs a specific number of times. A for loop was appropriate in this case, as I am always counting down from 10. I also had to look up the syntax for using the range function in a for loop. After some googling, I re-learned that the order is as follows: range(starting number, ending number, increment amount). 
 
+&nbsp;
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description
