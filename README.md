@@ -16,8 +16,9 @@ This is the first assignment in a series where I build a simulated launch pad. I
 
 ### Evidence 
 
-![Countdown](images/launch%20pad%20count%20down.gif)
-Wiring was not necessary for this assignment.
+![Countdown](https://user-images.githubusercontent.com/71345217/189718579-c12a0c68-5e3e-4eda-8ee3-745c6dfb131d.mp4
+
+
 
 ### Code.
 [Link to code](https://github.com/millerm22/Engineering_4_Notebook/blob/main/Raspberry_Pi/hello_world.py). 
