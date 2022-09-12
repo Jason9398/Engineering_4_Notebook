@@ -16,7 +16,7 @@ This is the first assignment in a series where I build a simulated launch pad. I
 
 ### Evidence 
 
-![Countdown](https://user-images.githubusercontent.com/71345217/189718579-c12a0c68-5e3e-4eda-8ee3-745c6dfb131d.mp4
+![Countdown][Wokwi Arduino and ESP32 Simulator - Google Chrome 2022-09-09 13-53-57.zip](https://github.com/Jason9398/Engineering_4_Notebook/files/9550429/Wokwi.Arduino.and.ESP32.Simulator.-.Google.Chrome.2022-09-09.13-53-57.zip)
 
 
 
