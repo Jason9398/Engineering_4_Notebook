@@ -5,6 +5,8 @@ led = digitalio.DigitalInOut(board.GP13)
 led.direction = digitalio.Direction.OUTPUT
 ledgreen = digitalio.DigitalInOut(board.GP18) 
 ledgreen.direction = digitalio.Direction.OUTPUT 
+butten,direction = digitalio.Direction.OUTPUT 
+butten.pull = digitalio.Pull.DOWN
 for x in range(10,0,-1):
   print(x)
 led.value = True  
