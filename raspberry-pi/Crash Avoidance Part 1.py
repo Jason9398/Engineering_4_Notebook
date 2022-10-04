@@ -1,0 +1,8 @@
+import board
+import adafruit_mpu6050 
+import busio
+sda_pin =board.GP16
+scl_pin =board.GP17
+i2c = busio.I2C(scl_pin, sda_pin)
+mpu = adafruit_mpu6050.MPU6050(i2c)
+print(mpu.acceleration)
