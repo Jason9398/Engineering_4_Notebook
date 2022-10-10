@@ -1,5 +1,6 @@
 import time 
 import board
+import digitalio 
 import adafruit_mpu6050 
 import busio
 sda_pin =board.GP16
@@ -15,4 +16,19 @@ while True:
         #do stuff 
         led.value = True 
         time.sleep(1) 
+        led.value = False
+    if mpu.acceleration[0] < -9:
+        #do stuff 
+        led.value = True 
+        time.sleep(.5) 
+        led.value = False
+    if mpu.acceleration[1] > 9:
+        #do stuff 
+        led.value = True 
+        time.sleep(.5) 
+        led.value = False
+    if mpu.acceleration[1] < -9:
+        #do stuff 
+        led.value = True 
+        time.sleep(.5) 
         led.value = False
