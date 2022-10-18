@@ -8,13 +8,14 @@ import adafruit_displayio_ssd1306
 import terminalio
 import displayio
 displayio.release_displays()
-display_bus = displayio.I2CDisplay(i2c, device_address=your-address-here, reset=board.your-pin-here)
-display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
-mpu = adafruit_mpu6050.MPU6050(i2c, address=your-address-here)
-
 sda_pin =board.GP16
 scl_pin =board.GP17
 i2c = busio.I2C(scl_pin, sda_pin)
+display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP0)
+display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
+mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68)
+
+
 mpu = adafruit_mpu6050.MPU6050(i2c)
 led = digitalio.DigitalInOut(board.GP13) 
 led.direction = digitalio.Direction.OUTPUT
@@ -48,6 +49,21 @@ while True:
     title = "ANGULAR VELOCITY"
     # the order of this command is (font, text, text color, and location)
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
+    splash.append(text_area)    
+
+    title = f"{mpu.acceleration[0]}"
+    # the order of this command is (font, text, text color, and location)
+    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=15)
+    splash.append(text_area)    
+
+    title =f"{mpu.acceleration[1]}"
+    # the order of this command is (font, text, text color, and location)
+    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=25)
+    splash.append(text_area)    
+
+    title =f"{mpu.acceleration[2]}"
+    # the order of this command is (font, text, text color, and location)
+    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=35)
     splash.append(text_area)    
 
     # you will write more code here that prints the x, y, and z angular velocity values to the screen below the title. Use f strings!
