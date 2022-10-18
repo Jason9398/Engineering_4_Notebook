@@ -8,8 +8,7 @@ scl_pin =board.GP17
 i2c = busio.I2C(scl_pin, sda_pin)
 mpu = adafruit_mpu6050.MPU6050(i2c)
 led = digitalio.DigitalInOut(board.GP13) 
-l
-ed.direction = digitalio.Direction.OUTPUT
+led.direction = digitalio.Direction.OUTPUT
 while True:
     print(mpu.acceleration)
     time.sleep(1)
