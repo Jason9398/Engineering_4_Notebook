@@ -25,7 +25,8 @@ This is the first assignment in a series where I build a simulated launch pad. I
 At first I had a hard time remembering the differences between the types of loops. A while loop runs until the condition is not longer satisfied, while a for loop runs for loop runs a specific number of times. A for loop was appropriate in this case, as I am always counting down from 10. I also had to look up the syntax for using the range function in a for loop. After some googling, I re-learned that the order is as follows: range(starting number, ending number, increment amount). 
 
 &nbsp;
-###Launch Pad Part 2
+
+### Launch Pad Part 2(Lights)
 
 ### Evidence
 
@@ -35,12 +36,63 @@ At first I had a hard time remembering the differences between the types of loop
 
 (https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/LUANCHPAD4.PY) 
 
-###Reflection
+### Reflection
 
 In this assignment we Had to write a code in which it would count dowen and for each secand a green led would flash green and at the end a red led would flash then print liftoff.this assignment gave me good inroduction into using V.S code.this assingment was very hard for me because I had neer done somthing like this before but once I got the hang of it it was essey.Now I how to make it count down and what time. sleep is. 
 
+&nbsp;
 
+### Launch Pad Part 3 (Button)
 
+### Evidence
+
+### code
+
+### Reflection
+
+&nbsp;
+
+### Launch Pad Part 4 (Servo)
+
+### Evidence
+
+### code
+
+### Refection
+
+&nbsp;
+
+### Crash Avoidance Part 1 (Accelerometer)
+
+### Evidence
+
+### code
+
+### Reflection
+
+&nbsp;
+
+### Crash Avoidance Part 2 (Light + Powerboost)
+
+### Evidence
+
+### code 
+
+### Reflection
+
+&nbsp;
+
+### Crash Avoidance Part 3 (OLED Screen)
+
+### Evidence
+
+### code
+
+### Reflection
+
+&nbsp;
+
+### Landing Area Part 1 (Functions)
 
 
 ## Raspberry_Pi_Assignment_Template
