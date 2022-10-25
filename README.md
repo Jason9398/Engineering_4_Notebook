@@ -25,6 +25,24 @@ This is the first assignment in a series where I build a simulated launch pad. I
 At first I had a hard time remembering the differences between the types of loops. A while loop runs until the condition is not longer satisfied, while a for loop runs for loop runs a specific number of times. A for loop was appropriate in this case, as I am always counting down from 10. I also had to look up the syntax for using the range function in a for loop. After some googling, I re-learned that the order is as follows: range(starting number, ending number, increment amount). 
 
 &nbsp;
+Launch Pad Part 2
+
+### Evidence
+
+Video Play media comment.
+
+### Code
+
+ LED_blink.py
+ 
+ ###reflection
+
+
+
+
+
+
+
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description
