@@ -37,7 +37,7 @@ At first I had a hard time remembering the differences between the types of loop
 
 ###Reflection
 
-
+In this assignment we Had to write a code in which it would count dowen and for each secand a green led would flash green and at the end a red led would flash then print liftoff.this assignment gave me good inroduction into using V.S code.this assingment was very hard for me because I had neer done somthing like this before but once I got the hang of it it was essey.Now I how to make it count down and what time. sleep is. 
 
 
 
