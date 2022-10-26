@@ -55,11 +55,11 @@ In this assigment we Had to write a code where when we hit a butten it would sta
 ### Launch Pad Part 4 (Servo)
 
 ## Evidence
-
+click here to view.
 ## code
-
+https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/LUANCHPAD4.PY
 ## Refection
-
+In this assighment we had to write a code where we have a countdown from 10 to 0 and for each secand a green led will blink green and at the end a red led will flash and then print liftoff.After print liftoff the servo will spin.The hardest pat of this assighments was adding in the new code and getting confused with the example code and the real code. 
 &nbsp;
 
 ### Crash Avoidance Part 1 (Accelerometer)
