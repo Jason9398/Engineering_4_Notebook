@@ -76,21 +76,21 @@ In this assighnment we needed to write a code that would primt acelleration for 
 ### Crash Avoidance Part 2 (Light + Powerboost)
 
 ## Evidence
-
+https://cvilleschools.instructure.com/courses/37013/assignments/487404/submissions/4148?preview=1&rand=821019#
 ## code 
-
+https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance%20Part%202.py
 ## Reflection
-
+This in assignment we had to write a cod where when you tillted the bread in the directions left,right,fowerd,and back at a 90 degree angle a green led would flash  in each direction.The hardest part about this assighment was hat I forgot how to wire an led it took me a second to remenber how. and like in part one of this assighment I aslso had to print angler volocety. 
 &nbsp;
 
 ### Crash Avoidance Part 3 (OLED Screen)
 
 ## Evidence
-
+https://cvilleschools.instructure.com/courses/37013/assignments/487405/submissions/4148?preview=1&rand=787621#
 ## code
-
+https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/crash%20avoidance%20part%203.py
 ## Reflection
-
+In this assighment we had to Have angler volocity print on  oled screen.The hardest part about this assighment was part was making sure my whiring was perfect anf getting he cordinets that I needed.Anather thing was that all the wires on my bread borded got realy confusing and when one came out I was confuesed on where they went but also in this I asighment I learned more about coding.
 &nbsp;
 
 ### Landing Area Part 1 (Functions)
