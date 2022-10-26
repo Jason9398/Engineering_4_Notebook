@@ -45,7 +45,8 @@ In this assignment we Had to write a code in which it would count dowen and for 
 ## Launch Pad Part 3 (Button)
 
 ## Evidence
-click here to view.
+https://cvilleschools.instructure.com/courses/37013/assignments/487401/submissions/4148?preview=1&rand=792209#
+
 ## code
 https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/Launch%20Pad%20part%203.py
 ## Reflection
@@ -55,7 +56,7 @@ In this assigment we Had to write a code where when we hit a butten it would sta
 ### Launch Pad Part 4 (Servo)
 
 ## Evidence
-click here to view.
+https://cvilleschools.instructure.com/courses/37013/assignments/487401/submissions/4148?preview=1&rand=792209#
 ## code
 https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/LUANCHPAD4.PY
 ## Refection
