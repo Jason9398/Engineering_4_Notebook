@@ -66,11 +66,11 @@ In this assighment we had to write a code where we have a countdown from 10 to 0
 ### Crash Avoidance Part 1 (Accelerometer)
 
 ## Evidence
-
+https://cvilleschools.instructure.com/courses/37013/assignments/487403/submissions/4148?preview=1&rand=435915#
 ## code
-
+https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/Crash%20Avoidance%20Part%201.py
 ## Reflection
-
+In this assighnment we needed to write a code that would primt acelleration for X,Y,Z or anguler valocity the wiring for this assignment was pretty easy The hardent part about the wirinh was I did not have the pin map when I did it.Another hard part about this assighment is that I needed to add new files for this assighment and write a whole new code.
 &nbsp;
 
 ### Crash Avoidance Part 2 (Light + Powerboost)
