@@ -96,11 +96,11 @@ In this assighment we had to Have angler volocity print on  oled screen.The hard
 ### Landing Area Part 1 (Functions)
 
 ## Evidence
-
+https://cvilleschools.instructure.com/courses/37013/assignments/487407/submissions/4148?preview=1&rand=471821#
 ## code
-
+https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/landing%20area%20part%201.py
 ## Reflection
-
+In this assighment I had to write a code to caluclate the area of a tringle using its courdinates The annoying part about this assighment as because my cose was wrong it kept maling me renter the points over and over agein.One thing I did learn was  a new way on V.S code to get the computer to show  me what I had wrong on my code. 
 ## Raspberry_Pi_Assignment_Template
 
 ### Assignment Description
