@@ -13,87 +13,92 @@
 ### Assignment Description
 This is the first assignment in a series where I build a simulated launch pad. In this section, I wrote a script to count down from 10 second to liftoff. 
 
-### Evidence 
+## Evidence 
 
 ![Countdown][Wokwi Arduino and ESP32 Simulator - Google Chrome 2022-09-09 13-53-57.zip](https://github.com/Jason9398/Engineering_4_Notebook/files/9550429/Wokwi.Arduino.and.ESP32.Simulator.-.Google.Chrome.2022-09-09.13-53-57.zip)
 
 
 
-### Code.
+## Code.
 [Link to code]https://wokwi.com/projects/342347535216542292
-### Reflection)
-At first I had a hard time remembering the differences between the types of loops. A while loop runs until the condition is not longer satisfied, while a for loop runs for loop runs a specific number of times. A for loop was appropriate in this case, as I am always counting down from 10. I also had to look up the syntax for using the range function in a for loop. After some googling, I re-learned that the order is as follows: range(starting number, ending number, increment amount). 
+## Reflection
+At first I had a hard time remembering the differences between the types of loops. A while loop runs until the condition is not longer satisfied, while a for loop runs for loop runs a specific number of times. A for loop was appropriate in this case, as I am always counting down from 10. I also had to look up the syntax for using the range function in a for loop. After some googling, I re-learned that the order is as follows: range(starting number, ending number, increment amount. 
 
 &nbsp;
 
 ### Launch Pad Part 2(Lights)
 
-### Evidence
+## Evidene
 
 [Video Play media comment.
 ](https://cvilleschools.instructure.com/courses/37013/assignments/487400/submissions/4148?preview=1&rand=309034#:~:text=a%20media%20recording.-,click%20here%20to%20view.)
-### Code
+## Code
 
 (https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/LUANCHPAD4.PY) 
 
-### Reflection
+## Reflection
 
 In this assignment we Had to write a code in which it would count dowen and for each secand a green led would flash green and at the end a red led would flash then print liftoff.this assignment gave me good inroduction into using V.S code.this assingment was very hard for me because I had neer done somthing like this before but once I got the hang of it it was essey.Now I how to make it count down and what time. sleep is. 
 
 &nbsp;
 
-### Launch Pad Part 3 (Button)
+## Launch Pad Part 3 (Button)
 
-### Evidence
+## Evidence
 
-### code
+## code
 
-### Reflection
+## Reflection
 
 &nbsp;
 
 ### Launch Pad Part 4 (Servo)
 
-### Evidence
+## Evidence
 
-### code
+## code
 
-### Refection
+## Refection
 
 &nbsp;
 
 ### Crash Avoidance Part 1 (Accelerometer)
 
-### Evidence
+## Evidence
 
-### code
+## code
 
-### Reflection
+## Reflection
 
 &nbsp;
 
 ### Crash Avoidance Part 2 (Light + Powerboost)
 
-### Evidence
+## Evidence
 
-### code 
+## code 
 
-### Reflection
+## Reflection
 
 &nbsp;
 
 ### Crash Avoidance Part 3 (OLED Screen)
 
-### Evidence
+## Evidence
 
-### code
+## code
 
-### Reflection
+## Reflection
 
 &nbsp;
 
 ### Landing Area Part 1 (Functions)
 
+## Evidence
+
+## code
+
+## Reflection
 
 ## Raspberry_Pi_Assignment_Template
 
