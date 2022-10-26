@@ -49,7 +49,7 @@ click here to view.
 ## code
 https://github.com/Jason9398/Engineering_4_Notebook/blob/main/raspberry-pi/Launch%20Pad%20part%203.py
 ## Reflection
-
+In this assigment we Had to write a code where when we hit a butten it would start a countdowen from 10 to 0 and for each secand the light would blink green and at zero a red led would flash and then print lifftoff.The hardest about this was figuring out what to put on my code and trying to get the butten to get butten to go into the bord in this assigment I lernt more about coding.
 &nbsp;
 
 ### Launch Pad Part 4 (Servo)
