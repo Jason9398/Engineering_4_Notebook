@@ -163,52 +163,20 @@ Task: Launch Raspberry Pi into the sky, collect data, and do something at the ap
 
 # Planning
 ## Initial Ideas
-  * Supersonic Potato Cannon
-    * Pros - High altitude, powerful
-    * Cons - Difficult to materialize, expensive, extremely dangerous, difficult to transfer
-  * Hot Air Balloon
-    * Pros - Floats for a long time, high altitude
-    * Cons - Slow, hard to heat and contain air
-  * Bottle Rocket
-    * Pros - High altitude, lightweight, easy to construct, flexible
-    * Cons - Maximum PSI limits potential height, mildly dangerous due to high pressure
-
+ 
 ## Final Design Plan
-We decided to make a Bottle Rocket due to the inexpensive, easy construction, and the flexibility of the design. The maximum PSI will not limit the height drastically, and the path of the flight could be controlled by varying the pressure and angle at lauch. Additionally, we will use a barometric pressure sensor to determine the altitude and release a parachute when the rocket is at its apex. [Multi-stage bottle rocket explanation](http://www.aircommandrockets.com/howitworks_1.htm)
 
 ### Materials
-* 2 liter bottles
-* 3d printed fins
-* 3d printed nosecone
-* 3d printed or lasercut casing for electronics
-* Parachute
-* Electronic components - 
-  * Raspberry Pi Zero
-  * MPL3115A2 barometric pressure altimeter
-  * Battery
-  * Circuit board
-  * Servo
-  * Buttons
-  * RGB LED indicator
 
 ### Risk Mitigation
-To ensure our safety whilst using potentially dangerous compressed air, we will always wear safety glasses when the launcher is pressurized. Additionally, we will clearly communicate when the launcher is pressurized and when the pressure will be released and the rocket launched.
 
 ### Pseudocode
-User presses button <br/>
-Start recording altitude<br/>
-Change LED color to show that it is recording<br/>
-Turn servo to release parachute once it starts falling<br/>
-User presses button to end recording<br/>
-Recorded data is written to CSV file<br/>
 
 
-<img src="Media/1-10-22rocket.jpg" width="300px" height="400" /> 
-<br/>
+
 
 ### Payload, Parachute, and Parameters
 
-For the design of the payload and top of the rocket, we decided to cut the bottom of another bottle off and place it on the top of the inital rocket to give a platform for the payload, and we are going to attach a 3d printed cone to the top of both bottles which will house the parachute and release mechanism and be held on by strings tied to the fins. 
 
 <br/>
 <img src="Media/Parachute Design.jpg" width="300px" height="400" /> 
