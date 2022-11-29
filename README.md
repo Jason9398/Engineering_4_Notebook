@@ -150,5 +150,3 @@ Media Test”
 
 Test GIF
 ![c4cece6bd1d909f512a223b68baedc6ea87c64eb](https://user-images.githubusercontent.com/71345217/188210377-3ec5dd74-4e9c-487f-93e9-e33537a56ef0.jpeg)
-# Pi-in-the-Sky
-Task: Launch Raspberry Pi into the sky, collect data, and do something at the apex of the Pi's flight. Additionally, make sure landing is safe enough to protect the Pi.
