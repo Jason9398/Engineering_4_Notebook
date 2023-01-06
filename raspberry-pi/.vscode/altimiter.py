@@ -33,3 +33,4 @@ while True:
     temperature = sensor.temperature
     print("Temperature: {0:0.3f} degrees Celsius".format(temperature))
     time.sleep(1.0)
+   
