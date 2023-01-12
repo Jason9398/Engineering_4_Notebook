@@ -15,6 +15,8 @@ i2c = busio.I2C(scl_pin, sda_pin)
 #setting up display
 display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP0)
 display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
+
+#Acceloromiter set up
 mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68)
 led = digitalio.DigitalInOut(board.GP13) 
 led.direction = digitalio.Direction.OUTPUT
@@ -26,8 +28,67 @@ button.pull=digitalio.Pull.DOWN
 mpu = adafruit_mpu6050.MPU6050(i2c)
 led = digitalio.DigitalInOut(board.GP13) 
 led.direction = digitalio.Direction.OUTPUT
+#Altimiter set up
+# Create sensor object, communicating over the board's default I2C bus
+i2c = board.I2C()  # uses board.SCL and board.SDA
+# i2c = board.STEMMA_I2C()  # For using the built-in STEMMA QT connector on a microcontroller
+
+# Initialize the MPL3115A2.
+sensor = adafruit_mpl3115a2.MPL3115A2(i2c)
+# Alternatively you can specify a different I2C address for the device:
+# sensor = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x10)
+
+# You can configure the pressure at sealevel to get better altitude estimates.
+# This value has to be looked up from your local weather forecast or meteorological
+# reports.  It will change day by day and even hour by hour with weather
+# changes.  Remember altitude estimation from barometric pressure is not exact!
+# Set this to a value in pascals:
+sensor.sealevel_pressure = 102250
+
+# Main loop to read the sensor values and print them every second.
+while True:
+    pressure = sensor.pressure
+    print("Pressure: {0:0.3f} pascals".format(pressure))
+    altitude = sensor.altitude
+    print("Altitude: {0:0.3f} meters".format(altitude))
+    temperature = sensor.temperature
+    print("Temperature: {0:0.3f} degrees Celsius".format(temperature))
+    time.sleep(1.0)
+   
 while True:
     print(mpu.acceleration)
+     
+     
+     
+     # create the display group
+    splash = displayio.Group()
+
+    # add title block to display group
+    title = "ANGULAR VELOCITY"
+    # the order of this command is (font, text, text color, and location)
+    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
+    splash.append(text_area)    
+
+    title = f"{mpu.acceleration[0]}"
+    # the order of this command is (font, text, text color, and location)
+    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=15)
+    splash.append(text_area)    
+
+    title =f"{mpu.acceleration[1]}"
+    # the order of this command is (font, text, text color, and location)
+    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=25)
+    splash.append(text_area)    
+
+    title =f"{mpu.acceleration[2]}"
+    # the order of this command is (font, text, text color, and location)
+    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=35)
+    splash.append(text_area)    
+
+    # you will write more code here that prints the x, y, and z angular velocity values to the screen below the title. Use f strings!
+    # Don't forget to round the angular velocity values to three decimal places
+
+    # send display group to screen
+    display.show(splash)
 
 
 
@@ -39,9 +100,5 @@ if button.value == True:
         time.sleep(1)
     led.value = False
 
-    print("lift off")
-    ledgreen.value = True  
-    time.sleep(1)
-    ledgreen.value = False
 
       #print(butten.value)P
