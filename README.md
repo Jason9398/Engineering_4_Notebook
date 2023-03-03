@@ -198,6 +198,41 @@ Re-design of the beam after using simscale.
 I tried doing various things such as changing the bottom beam height, open holes, and middle beam width. I changed the bottom beam height because otherwise the end piece with the hole supporting weight would snap too easy. I made a hole in the middle beam to lessen the mass. I also thinned the middle beam width also to lessen the mass. After a couple redesigns making the bottom beam thicker and everything else thinner, I realized meeting in the middle worked the best. Started off with 129.6 mPa on the stress level and got it down to 40.84 on the most stressed section.
 
 
+### Assignment Description.
+Work with a partner to create either the Ring or Spinner 
+### Evidence 
+![image](https://user-images.githubusercontent.com/71898987/205132343-c77d1e30-9986-4a71-8f60-86fe6519c71f.png)
+
+
+
+
+
+### Wiring
+
+no wiring
+### Reflection
+ I made the ring. It was pretty smooth and i re-learned some shortcut keys.
+ 
+
+## 4.2 Key and Prop
+
+### Assignment Description.
+Me and my partner had to make the key and prop.
+### Evidence 
+
+
+
+
+
+
+
+### Wiring
+
+no wiring
+### Reflection
+I made the key. It was pretty smooth. Although i did make a mistake and had to go back some steps due to the fact that i forgot about how i could  use the  = constraint feature  that would've  made the angles of my sketch the same length.
+
+
 Media Test”
 ![Dracule_Mihawk_Anime_Infobox](https://user-images.githubusercontent.com/71345217/188211795-d53b3d1a-ae10-4846-8b7a-8389f1fc61f9.png)
 
