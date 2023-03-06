@@ -28,7 +28,7 @@ button.pull=digitalio.Pull.DOWN
 mpu = adafruit_mpu6050.MPU6050(i2c)
 led = digitalio.DigitalInOut(board.GP13) 
 led.direction = digitalio.Direction.OUTPUT
-#Altimiter set up
+#Altimiter set up                                                                                              
 # Create sensor object, communicating over the board's default I2C bus
 i2c = board.I2C()  # uses board.SCL and board.SDA
 # i2c = board.STEMMA_I2C()  # For using the built-in STEMMA QT connector on a microcontroller
@@ -38,7 +38,7 @@ sensor = adafruit_mpl3115a2.MPL3115A2(i2c)
 # Alternatively you can specify a different I2C address for the device:
 # sensor = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x10)
 
-# You can configure the pressure at sealevel to get better altitude estimates.
+# You can configure the pressure at sealevel to get better altitude estimates.[]
 # This value has to be looked up from your local weather forecast or meteorological
 # reports.  It will change day by day and even hour by hour with weather
 # changes.  Remember altitude estimation from barometric pressure is not exact!
@@ -64,7 +64,7 @@ while True:
     splash = displayio.Group()
 
     # add title block to display group
-    title = "ANGULAR VELOCITY"
+    title = " Altituide and Rotation"
     # the order of this command is (font, text, text color, and location)
     text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
     splash.append(text_area)    
@@ -102,3 +102,4 @@ if button.value == True:
 
 
       #print(butten.value)P
+   
