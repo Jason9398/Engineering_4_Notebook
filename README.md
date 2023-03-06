@@ -143,6 +143,94 @@ Take a nice screenshot of your Onshape document.
 What went wrong / was challenging, how'd you figure it out, and what did you learn from that experience? Your goal for the reflection is to pass on knowledge that will make this assignment better or easier for the next person. Think about your audience for this one, which may be "future you" (when you realize you need some of this code in three months), me, or your college admission committee!
 
 &nbsp;
+## OnshapeBeam
+
+### Assignment Description
+
+Beam designed in onshape with specific hole parameters and a max weight of 13g in PLA. Made to hold up a # of weight from a hanging object at the very end.
+
+### Part Link 
+ 
+[Onshape Link](https://cvilleschools.onshape.com/documents/4862023c791f906fb6af291a/w/f146bbfecf1ea583b0372a0c/e/992fcce4075b3db17b2d1dff?renderMode=0&uiState=6363fb199f09cf7adfb87b42)
+
+### Part Image
+
+![Photo](images/Beam.png)
+
+### Reflection
+
+Began this project doing some reasearch on beam theory and strongest beam designs. The "T" or "I" beam are the strongest versions of a simplified beam. I could not have overhang like how an "I" beam is designed, so I created a T beam. Used the most weight in the middle beam as the vertical strength is more important than the horizontal. Also filleted egdes on the vertical to prevent corners and stresss concentrators. 
+
+## SimScale
+
+### Assignment Description
+
+Beam designed in onshape is tested in SimScale. Used 4 total simulations and the 2nd one I did was the best.
+
+### Part Link
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/4862023c791f906fb6af291a/w/f146bbfecf1ea583b0372a0c/e/992fcce4075b3db17b2d1dff?renderMode=0&uiState=6363fb199f09cf7adfb87b42)
+
+### Part Image
+
+![Photo](images/SimscaleBeam.png)
+
+### Reflection
+
+Ran my first simulation and it had a very clear breaking point at the end of the beam. Redesigned multiple times making the bottom beam thicker each time. At the end I realized the 2nd simulation held up the most force, so I decided with that one.
+
+## OnshapeBeamRe-design
+
+### Assignment Description
+
+Re-design of the beam after using simscale.
+
+### Part Link
+
+[Onshape Link](https://cvilleschools.onshape.com/documents/4862023c791f906fb6af291a/w/f146bbfecf1ea583b0372a0c/e/992fcce4075b3db17b2d1dff?renderMode=0&uiState=6363fb199f09cf7adfb87b42)
+
+### Part Image
+
+![Photo](images/FinalBeam.png)
+
+### Reflection
+
+I tried doing various things such as changing the bottom beam height, open holes, and middle beam width. I changed the bottom beam height because otherwise the end piece with the hole supporting weight would snap too easy. I made a hole in the middle beam to lessen the mass. I also thinned the middle beam width also to lessen the mass. After a couple redesigns making the bottom beam thicker and everything else thinner, I realized meeting in the middle worked the best. Started off with 129.6 mPa on the stress level and got it down to 40.84 on the most stressed section.
+
+
+### Assignment Description.
+Work with a partner to create either the Ring or Spinner 
+### Evidence 
+![image](https://user-images.githubusercontent.com/71898987/205132343-c77d1e30-9986-4a71-8f60-86fe6519c71f.png)
+
+
+
+
+
+### Wiring
+
+no wiring
+### Reflection
+ I made the ring. It was pretty smooth and i re-learned some shortcut keys.
+ 
+
+## 4.2 Key and Prop
+
+### Assignment Description.
+Me and my partner had to make the key and prop.
+### Evidence 
+
+
+
+
+
+
+
+### Wiring
+
+no wiring
+### Reflection
+I made the key. It was pretty smooth. Although i did make a mistake and had to go back some steps due to the fact that i forgot about how i could  use the  = constraint feature  that would've  made the angles of my sketch the same length.
 
 
 Media Test”
