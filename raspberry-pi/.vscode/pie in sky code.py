@@ -60,36 +60,7 @@ while True:
      
      
      
-     # create the display group
-    splash = displayio.Group()
-
-    # add title block to display group
-    title = " Altituide and Rotation"
-    # the order of this command is (font, text, text color, and location)
-    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=5)
-    splash.append(text_area)    
-
-    title = f"{mpu.acceleration[0]}"
-    # the order of this command is (font, text, text color, and location)
-    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=15)
-    splash.append(text_area)    
-
-    title =f"{mpu.acceleration[1]}"
-    # the order of this command is (font, text, text color, and location)
-    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=25)
-    splash.append(text_area)    
-
-    title =f"{mpu.acceleration[2]}"
-    # the order of this command is (font, text, text color, and location)
-    text_area = label.Label(terminalio.FONT, text=title, color=0xFFFF00, x=5, y=35)
-    splash.append(text_area)    
-
-    # you will write more code here that prints the x, y, and z angular velocity values to the screen below the title. Use f strings!
-    # Don't forget to round the angular velocity values to three decimal places
-
-    # send display group to screen
-    display.show(splash)
-
+    
 
 
 
