@@ -11,7 +11,7 @@ ledgreen.direction = digitalio.Direction.OUTPUT
 button = digitalio.DigitalInOut(board.GP16)  
 button.direction = digitalio.Direction.INPUT
 button.pull=digitalio.Pull.DOWN
-pwm_servo = pwmio.PWMOut(board.GP0, duty_cycle=2 ** 15, frequency=50)
+pwm_servo = pwmio.PWMOut(board.GP5, duty_cycle=2 ** 15, frequency=50)
 servo1 = servo.Servo(pwm_servo, min_pulse=500, max_pulse=2500)
 servo1.angle = 0 
 
