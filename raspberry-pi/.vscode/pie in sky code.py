@@ -6,15 +6,15 @@ import busio
 from adafruit_display_text import label
 import adafruit_displayio_ssd1306
 import terminalio
+from adafruit_motor import servo
+import pwmio
+import  adafruit_mpl3115a2
 import displayio
 displayio.release_displays()
 #set up i2c
 sda_pin =board.GP16
 scl_pin =board.GP17
 i2c = busio.I2C(scl_pin, sda_pin)
-#setting up display
-display_bus = displayio.I2CDisplay(i2c, device_address=0x3d, reset=board.GP0)
-display = adafruit_displayio_ssd1306.SSD1306(display_bus, width=128, height=64)
 
 #Acceloromiter set up
 mpu = adafruit_mpu6050.MPU6050(i2c, address=0x68)
@@ -22,19 +22,14 @@ led = digitalio.DigitalInOut(board.GP13)
 led.direction = digitalio.Direction.OUTPUT
 ledgreen = digitalio.DigitalInOut(board.GP18) 
 ledgreen.direction = digitalio.Direction.OUTPUT
-button = digitalio.DigitalInOut(board.GP16)  
-button.direction = digitalio.Direction.INPUT
-button.pull=digitalio.Pull.DOWN
-mpu = adafruit_mpu6050.MPU6050(i2c)
-led = digitalio.DigitalInOut(board.GP13) 
-led.direction = digitalio.Direction.OUTPUT
+
 #Altimiter set up                                                                                              
 # Create sensor object, communicating over the board's default I2C bus
  # uses board.SCL and board.SDA
 # i2c = board.STEMMA_I2C()  # For using the built-in STEMMA QT connector on a microcontroller
 
 # Initialize the MPL3115A2.
-sensor = adafruit_mpl3115a2.MPL3115A2(i2c)
+sensor = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x60)
 # Alternatively you can specify a different I2C address for the device:
 # sensor = adafruit_mpl3115a2.MPL3115A2(i2c, address=0x10)
 
@@ -56,8 +51,3 @@ while True:
     print(mpu.acceleration)
     if altitude+1 < lastalt:
         servo1.angle =90 
-
-     
-     
-
-   
